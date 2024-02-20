@@ -5,6 +5,9 @@ on:
     branches: [ main ]
     paths:
       - 'TailwindTraders.Website/**'
+  push:
+    branches:
+      - main
 jobs:
   CI:
     runs-on: ubuntu-latest
